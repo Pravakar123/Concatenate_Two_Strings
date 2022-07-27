@@ -1,2 +1,21 @@
-# Concatenate_Two_Strings
-Hello + Friends = HelloFriends  Take two strings as input by creating a Scanner object. Print the final string as output after concatenation.  Input Format  Two Lines of input.  The first line of input will contain 1st string. The second line of input will contain 2nd string. Constraints  1&lt;=Length_Of_First_String&lt;=100  1&lt;=Length_Of_Second_String&lt;=100  Output Format  Single Line Output  Output will be single concatenated string. Sample Input 0  Hello Friends Sample Output 0  HelloFriends
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+         Scanner input = new Scanner(System.in);
+
+   
+
+    // takes input from the keyboard
+    String s1 = input.nextLine();
+        String s2=input.nextLine();
+        System.out.println(s1+s2);
+
+   
+
+    
+    }
+}
